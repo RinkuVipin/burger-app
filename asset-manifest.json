@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RinkuVipin/burger-app/static/css/main.43fc3aec.chunk.css",
+    "main.js": "/RinkuVipin/burger-app/static/js/main.977b7a0d.chunk.js",
+    "main.js.map": "/RinkuVipin/burger-app/static/js/main.977b7a0d.chunk.js.map",
+    "runtime-main.js": "/RinkuVipin/burger-app/static/js/runtime-main.ea726763.js",
+    "runtime-main.js.map": "/RinkuVipin/burger-app/static/js/runtime-main.ea726763.js.map",
+    "static/js/2.afb4157b.chunk.js": "/RinkuVipin/burger-app/static/js/2.afb4157b.chunk.js",
+    "static/js/2.afb4157b.chunk.js.map": "/RinkuVipin/burger-app/static/js/2.afb4157b.chunk.js.map",
+    "index.html": "/RinkuVipin/burger-app/index.html",
+    "precache-manifest.6dbfd0bf332b77cf4b7cafeb73c4c9a3.js": "/RinkuVipin/burger-app/precache-manifest.6dbfd0bf332b77cf4b7cafeb73c4c9a3.js",
+    "service-worker.js": "/RinkuVipin/burger-app/service-worker.js",
+    "static/css/main.43fc3aec.chunk.css.map": "/RinkuVipin/burger-app/static/css/main.43fc3aec.chunk.css.map",
+    "static/js/2.afb4157b.chunk.js.LICENSE.txt": "/RinkuVipin/burger-app/static/js/2.afb4157b.chunk.js.LICENSE.txt",
+    "static/media/burger-logo_edited.jpg": "/RinkuVipin/burger-app/static/media/burger-logo_edited.a41a846a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea726763.js",
+    "static/js/2.afb4157b.chunk.js",
+    "static/css/main.43fc3aec.chunk.css",
+    "static/js/main.977b7a0d.chunk.js"
+  ]
+}
