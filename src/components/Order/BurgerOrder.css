@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+.course-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 90vh;
+  margin: 0;
+}
+
+.course {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  max-width: 100%;
+  margin: 20px;
+  width: 700px;
+  height: 600px;
+}
+
+.course h6 {
+  opacity: 0.6;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.course h2 {
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.course-preview {
+  /* background-color: #2a265f; */
+  background-color: #f12711b2;
+  color: black;
+  padding: 30px;
+  width: 450px;
+  font-size: x-large;
+}
+
+.course-preview-image {
+  width: 360px;
+  height: 480px;
+  display: flex;
+}
+
+.course-info {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.progress-container {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  text-align: right;
+  width: 150px;
+}
+
+.progress {
+  background-color: #ddd;
+  border-radius: 3px;
+  height: 5px;
+  width: 100%;
+}
+
+.progress-text {
+  font-size: 10px;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
+
+.btn-container {
+  position: absolute;
+  width: 90%;
+  height: 60px;
+  bottom: auto;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  /* background-color: #2a265f; */
+  background-color: #f12711b2;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 25px;
+  height: 42px;
+  margin: 10px 20px 20px 0px;
+  float: right;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+  outline: none;
+}
+
+.btn:hover {
+  /* background-color: #5952ba; */
+  background-color: #fc2c0e;
+  cursor: pointer;
+  outline: none;
+}
+
+@media only screen and (max-width: 764px) {
+  .course {
+    flex-direction: column;
+    height: 1000px;
+    width: 450px;
+    padding: 0 10px;
+  }
+  .course-preview {
+    width: 430px;
+  }
+}
+
+@media (max-width: 500px) {
+  .course {
+    width: 100%;
+  }
+  .course-preview {
+    width: 100%;
+  }
+  .course-preview-image {
+    width: 100%;
+  }
+}

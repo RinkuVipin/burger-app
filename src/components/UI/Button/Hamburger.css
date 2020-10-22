@@ -1,0 +1,17 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Hamburger {
+  width: 35px;
+  height: 4px;
+  background-color: black;
+  margin: 2px 0;
+}
+
+@media (min-width: 500px) {
+  .Hamburger {
+    display: none;
+  }
+}

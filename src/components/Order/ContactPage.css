@@ -1,0 +1,83 @@
+.delivery-contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  height: 80vh;
+  align-items: center;
+}
+
+.delivery-contact-container-image {
+  margin: 20px;
+  height: 80vh;
+  width: 50%;
+  background-image: url("https://www.burger21.com/wp-content/uploads/2018/01/All-Burgers.jpg");
+  background-repeat: space;
+}
+
+.contact-container {
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 600px;
+  text-align: start;
+}
+
+.contact-container input[type="text"],
+.contact-container input[type="number"],
+.contact-container select,
+.contact-container textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-container input[type="text"]:focus,
+.contact-container input[type="number"]:focus,
+.contact-container select:focus,
+.contact-container textarea:focus {
+  outline: 2px solid #f12711;
+  border-radius: 0;
+}
+
+.contact-container input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.contact-container input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.contact-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error {
+  font-size: x-small;
+  color: red;
+}
+
+@media only screen and (max-width: 764px) {
+  .delivery-contact-container {
+    width: 430px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  .delivery-contact-container-image {
+    display: none;
+  }
+}

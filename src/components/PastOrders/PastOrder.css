@@ -1,0 +1,14 @@
+.past-order-container {
+  background-color: #ffe5e5;
+  text-align: start;
+  padding: 5px 20px 5px 10px;
+  margin: 20px;
+  box-shadow: 2px 2px #ff9999;
+}
+
+.past-order-ingredients {
+  text-transform: capitalize;
+  margin: 0 16px 0 0;
+  border: 1px solid #ff9999;
+  padding: 5px;
+}

@@ -1,0 +1,84 @@
+.all-container {
+  all: unset;
+}
+
+.auth-container {
+  background: linear-gradient(90deg, #f12711b2 0%, #f5af19c2 100%);
+  max-width: 400px;
+  min-height: 540px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.auth-container input[type="text"],
+.auth-container input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 16px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.loginbtn {
+  text-transform: uppercase;
+  background-color: #f12711;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 24px;
+  letter-spacing: 1px;
+}
+
+.loginbtn:hover,
+.loginbtn:focus {
+  opacity: 0.8;
+}
+
+.signin {
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-bottom: 24px;
+}
+
+.signin:hover,
+.signin:focus {
+  border: 1px solid #f12711;
+}
+
+.imgcontainer {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+img.avatar {
+  margin: 24px 0 8px 0;
+  float: inherit;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+}
+
+.invalid {
+  font-size: 0.8em;
+  color: blue;
+  margin-left: 20px;
+}
+
+.error-message {
+  text-align: center;
+  width: 100%;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 360px) {
+  .auth-container form {
+    width: 300px;
+    margin-top: 56px;
+    height: 480px;
+  }
+}

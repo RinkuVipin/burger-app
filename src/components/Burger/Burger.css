@@ -1,0 +1,43 @@
+.Burger {
+  margin: auto;
+  width: 400px;
+  height: 244px;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  overflow: auto;
+  margin-bottom: 24px;
+}
+
+.initial-state {
+  background: radial-gradient(circle, #00c9ff 0%, #92fe9d 100%);
+  border-radius: 10px;
+  margin: 0 10%;
+  text-align: center;
+}
+
+@media (max-width: 200px) {
+  .Burger {
+    width: 350px;
+    height: 244px;
+  }
+}
+@media (min-width: 400px) and (min-height: 400px) {
+  .Burger {
+    width: 350px;
+    height: 244px;
+  }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+  .Burger {
+    height: 244px;
+  }
+}
+
+@media (min-width: 751px) and (min-height: 701px) {
+  .Burger {
+    width: 350px;
+    height: 600px;
+  }
+}
